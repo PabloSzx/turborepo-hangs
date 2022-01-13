@@ -1,10 +1,19 @@
 {
-  "name": "turborepo-hans",
+  "name": "turborepo-hangs",
   "private": true,
+  "scripts": {
+    "prepare": "turbo run build"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.8"
+  },
   "devDependencies": {
-    "turbo": "^1.0.26"
+    "turbo": "1.0.26"
   },
   "turbo": {
-    "baseBranch": "origin/main"
+    "baseBranch": "origin/main",
+    "pipeline": {
+      "build": {}
+    }
   }
 }

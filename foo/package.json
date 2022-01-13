@@ -1,5 +1,11 @@
 {
   "name": "foo",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.1"
+  "scripts": {
+    "build": "exit 0"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.8"
+  }
 }

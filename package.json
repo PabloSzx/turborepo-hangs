@@ -1,0 +1,10 @@
+{
+  "name": "turborepo-hans",
+  "private": true,
+  "devDependencies": {
+    "turbo": "^1.0.26"
+  },
+  "turbo": {
+    "baseBranch": "origin/main"
+  }
+}
